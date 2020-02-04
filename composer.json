@@ -1,0 +1,22 @@
+{
+    "name": "vendor/composer",
+    "authors": [
+        {
+            "name": "今非昔比",
+            "email": "1830442332@qq.com"
+        }
+    ],
+    "require": {
+         "noahbuscher/macaw":  "dev-master",
+		 "filp/whoops": "*",
+		 "illuminate/database": "*",
+		 "nette/mail": "*",
+		 "predis/predis": "*"
+    },
+    "autoload": {
+         "psr-4":{
+             "app\\":  "app/",
+			 "core\\": "core"
+         }
+    }
+}
